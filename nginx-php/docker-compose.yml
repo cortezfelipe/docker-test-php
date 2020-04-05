@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    volumes:
+      - ./www:/usr/share/nginx/html/
+    ports:
+      - 80:80
+  php:
+    image: php:7-fpm    

@@ -1,0 +1,6 @@
+é necessário ajustar linha 9 mudando caminho
+nginx.config
+root /usr/share/nginx/html;
+
+Adicionar os volumes 
+- ./html:/usr/share/nginx/html
